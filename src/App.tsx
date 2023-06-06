@@ -1,14 +1,12 @@
-import { useState } from 'react';
-
 import './App.css';
-import Board from '@components/Board';
+import MainPage from '@pages/MainPage';
 
 import '@styles/main.scss';
 
 function App() {
   return (
     <div className="app">
-      <Board />
+      <MainPage />
     </div>
   );
 }

@@ -1,0 +1,14 @@
+.main-page {
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  .main-page__board {
+    width: calc(100% - 300px);
+    height: 100%;
+  }
+
+  .main-page__controller {
+    width: 300px;
+    height: 100%;
+  }
+}
