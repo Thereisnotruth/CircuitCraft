@@ -6,10 +6,9 @@ export default function drawRectangle(
   color: string
 ) {
   if (ctx) {
-    console.log(x, y);
     ctx.beginPath();
-    ctx.strokeStyle = color;
-    ctx.strokeRect(x, y, size, size);
+    ctx.fillStyle = color;
+    ctx.fillRect(x, y, size, size);
     ctx.closePath();
     ctx.fill();
   }

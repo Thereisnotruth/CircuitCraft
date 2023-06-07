@@ -46,7 +46,7 @@ const Board = () => {
       const ctx = canvas.getContext('2d');
 
       clearCanvas(ctx, canvasWidth, canvasHeight);
-      drawRectangle(ctx, rectX, rectY, rectSize, 'red');
+      drawRectangle(ctx, rectX, rectY, rectSize, '#fb2576');
     }
   };
 

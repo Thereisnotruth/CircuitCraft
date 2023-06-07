@@ -1,7 +1,10 @@
+@use '../utils/color';
+
 .board {
   width: 100%;
   height: 100%;
   canvas {
-    background-color: white;
+    background-color: color.$blue;
+    color: color.$pink;
   }
 }
